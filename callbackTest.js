@@ -1,16 +1,14 @@
-  // 첫번째 
+  //첫번째 
 // function run() {
 //     const start = Date.now();
 //     for (let i = 0; i < 1000000000; i++) {}
 //     const end = Date.now();
 //     console.log(end - start + 'ms');
 //   }
- 
 //   run();
 //   console.log('Done !!!');
 
   // 두번째 
- 
 // function run() {
 //   setTimeout(() => {
 //     const start = Date.now();
@@ -54,22 +52,23 @@
 // run().then(() => {console.log('Done !!!');});
 // run().then(() => {return run()}).then(() => {console.log('Done !!!');});
 
-function run() {
-  return new Promise((resolve, reject) => {
-      setTimeout(() => {
-          const start = Date.now();
-          for (let i = 0; i < 1000000000; i++) {}
-          const end = Date.now();
-          console.log(end - start + 'ms');
-          resolve();
-      }, 1000);
-  });
-}
+//다섯번 째 
+// function run() {
+//   return new Promise((resolve, reject) => {
+//       setTimeout(() => {
+//           const start = Date.now();
+//           for (let i = 0; i < 1000000000; i++) {}
+//           const end = Date.now();
+//           console.log(end - start + 'ms');
+//           resolve();
+//       }, 1000);
+//   });
+// }
 
-async function process() {
-  await run();
-  await run();
-  console.log('Done !!!');
-}
+// async function process() {
+//   await run();
+//   await run();
+//   console.log('Done !!!');
+// }
 
-process();
+// process();
