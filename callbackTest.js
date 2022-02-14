@@ -1,12 +1,12 @@
   //첫번째 
-// function run() {
-//     const start = Date.now();
-//     for (let i = 0; i < 1000000000; i++) {}
-//     const end = Date.now();
-//     console.log(end - start + 'ms');
-//   }
-//   run();
-//   console.log('Done !!!');
+function run() {
+    const start = Date.now();
+    for (let i = 0; i < 1000000000; i++) {}
+    const end = Date.now();
+    console.log(end - start + 'ms');
+  }
+  run();
+  console.log('Done !!!');
 
   // 두번째 
 // function run() {
@@ -17,7 +17,6 @@
 //     console.log(end - start + 'ms');
 //   }, 1000);
 // }
-
 // run();
 // console.log('Done !!!');
 
@@ -31,7 +30,6 @@
 //     callback();
 //   }, 1000);
 // }
-
 // run(() => {
 //   console.log('Done !!!');
 // });
@@ -48,7 +46,6 @@
 //       }, 1000);
 //   });
 // }
-
 // run().then(() => {console.log('Done !!!');});
 // run().then(() => {return run()}).then(() => {console.log('Done !!!');});
 
