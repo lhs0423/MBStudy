@@ -9,7 +9,7 @@ console.log(file);
  * "./sample2.txt" : 파일 생성할 경로
  * file : 파일 데이터
  */
-fs.writeFile("/MB_NodeJS/File_Create.txt", file, (err) =>{
+fs.writeFile("/MB_NodeJS/비동기방식새로운파일.txt", file, (err) =>{
     console.log(err);
 })
 
@@ -18,4 +18,4 @@ fs.writeFile("/MB_NodeJS/File_Create.txt", file, (err) =>{
  * "./sample2.txt" : 파일 생성할 경로
  * file : 파일 데이터
  */
-// fs.writeFileSync("/MB_NodeJS/File_Create2.txt", file)
+fs.writeFileSync("/MB_NodeJS/동기방식새로운파일2.txt", file)
