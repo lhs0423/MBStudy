@@ -8,7 +8,7 @@ function run() {
   run();
   console.log('Done !!!');
 
-  // 두번째 
+
 // function run() {
 //   setTimeout(() => {
 //     const start = Date.now();
